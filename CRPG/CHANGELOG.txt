@@ -1,0 +1,21 @@
+﻿Proposed changes for v0.0.3
+===========================
++ Added CHANGELOG
++ Debug Commands
++ Stats for the Player
++ Inventory
++ Random Number
++ WhereAmI (similar look, when we move, we see the description)
++ Shortcut Navigation
++ Location Requirement
+
+Version 0.0.3 Competed on 3/29/22
+=================================
+
+Proposed changed for v0.0.4
++ Healing each move
++ Add quests to the system
++ Monster Detection 
+
+Version 0.0.4 Completed on 4/19/22
+==================================
