@@ -21,9 +21,14 @@ Version 0.0.4 Completed on 4/19/22
 ==================================
 
 Proposed changes for v0.0.5
-- Weapon equipping
-- Attack Engine
-- Last bite of cleanup, abbreviate some of the commands (into just a few letters)
++ Weapon equipping
++ Attack Engine
++ Last bite of cleanup, abbreviate some of the commands (into just a few letters)
 - Finish the Help system
 
+Costumize:
+- World.cs in the lines from 1-180
+- Healing System
 
+Version 0.0.5 Completed on 5/20/22
+==================================

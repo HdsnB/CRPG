@@ -76,7 +76,7 @@ namespace CRPG
             Monster snake = new Monster(MONSTER_ID_SNAKE, "Snake", 5, 3, 10, 3, 3);
             snake.LootTable.Add(new LootItem(ItemByID(ITEM_ID_SNAKE_FANG), 75, false));
             snake.LootTable.Add(new LootItem(ItemByID(ITEM_ID_SNAKESKIN), 75, true));
-            snake.LootTable.Add(new LootItem(ItemByID(ITEM_ID_CLUB), 75, true));
+            //snake.LootTable.Add(new LootItem(ItemByID(ITEM_ID_CLUB), 75, true));
 
             Monster giantSpider = new Monster(MONSTER_ID_GIANT_SPIDER, "Giant spider", 20, 5, 40, 10, 10);
             giantSpider.LootTable.Add(new LootItem(ItemByID(ITEM_ID_SPIDER_FANG), 75, true));
