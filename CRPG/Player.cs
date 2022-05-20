@@ -14,6 +14,8 @@ namespace CRPG
         public Location CurrentLocation;
         public List<InventoryItem> Inventory;
         public List<PlayerQuest> Quests;
+        public Weapon CurrentWeapon;
+        public List<Weapon> Weapons = new List<Weapon>();
 
         public Player(string name, int currentHitPoints, int maximumHitPoints, int gold, int experiencePoints,
             int level):base(currentHitPoints, maximumHitPoints)
