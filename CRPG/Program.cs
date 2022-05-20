@@ -1,4 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 
 //===== HUDSON BEDWARD 3/11/22 x 3/22/22 x 4/18/22 =====
 namespace CRPG
@@ -130,7 +135,6 @@ namespace CRPG
                 {
                     Weapon weaponToEquip = _player.Weapons.SingleOrDefault (x => x.Name.ToLower() == inputWeaponName
                    || x.NamePlural.ToLower() == inputWeaponName);
-
                     if(weaponToEquip == null)
                     {
                         Console.WriteLine("You do not have the weapon {0}!", inputWeaponName);
